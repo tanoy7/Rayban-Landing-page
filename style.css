@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    
+    /* background-color: #000; */
+}
+#back{
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+    /* background-color: rgb(255, 0, 0); */
+
+}
+#back img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* object-position: center; */
+    
+}
+#top{
+    pointer-events: none;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* background-color: #00000052; */
+    /* border: 2px solid green; */
+    
+    
+}
+#workingspace{
+    height: 100%;
+    width: 80%;
+    max-width: 1920px;
+    /* border: 2px solid red; */
+    margin: auto;
+    position: relative;
+    
+}
+#nav{
+    height: 17vh;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    
+    
+}
+
+
+#nav-img{
+    height: 8vh;
+    width: 10vw;
+    /* border: 2px solid cyan; */
+}
+#nav-img img{
+    object-fit: cover;
+    height: 70%;
+    width: 70%;
+    object-position: center;
+    
+}
+#nav-left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+
+}
+#nav-left a{
+    text-decoration: none;
+    pointer-events: all;
+}
+#nav-right a{
+    pointer-events: all;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+#nav-right {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+    margin-right: 20px;
+    justify-content: flex-end;
+    
+
+}
+#hero{
+    position: absolute;
+    /* height: 100px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+
+}
+#hero-left{
+    min-width: 50%;
+    /* height: 100px; */
+    /* background-color: yellow; */
+    margin-top: 5rem;
+}
+#hero-right{
+    width: 18%;
+    /* height: 100px; */
+    /* background-color: green; */
+    display: flex;
+    align-items: flex-end;
+    flex-direction:column;
+    margin-top: 5rem;
+    
+
+   
+}
+.elem{
+    /* border: 2px solid red; */
+    height: 9vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-left .elem h1:nth-child(1){
+    top:0;
+}
+
+#hero-left .elem h1{
+    
+    position: absolute;
+    top: 100%;
+    line-height: 0.9;
+    font-family: "kajiro";
+    font-size: 11vw;
+    font-weight: 100;
+}
+
+#hero-left button{
+    pointer-events: all;
+    cursor: pointer;
+    padding: .7vw 3vw;
+    font-family: "kajiro";
+    color: #000;
+    font-size: 3vw;
+    margin-top: 1vw;
+    border-radius: 0.5vw;
+    letter-spacing: 0.25vw;
+}
+
+#hero-right p{
+text-align: right;
+font-size: 14px;
+font-weight: 300;
+}
+#hero-right #image-div{
+    width: 100%;
+    height: 150px;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hero-right p:nth-child(3){
+    margin-bottom: 59px
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
